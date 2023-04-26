@@ -18,8 +18,8 @@ namespace commandLineApplicationPart1Poe
             int p = 1;
             while (p != 6)                                                    //while loop to loop menu
             {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("choose one of the following options below \n" +
+                Console.ForegroundColor = ConsoleColor.Green;                   //wording colour changed to green
+                Console.WriteLine("choose one of the following options below \n" +          
                     "1. Enter the details for a single recipe \n" +
                     "2. Display the full recipe \n" +
                     "3. Scale the recipe \n" +
