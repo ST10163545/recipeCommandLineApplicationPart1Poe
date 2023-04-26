@@ -31,11 +31,10 @@ namespace commandLineApplicationPart1Poe
                 int option = int.Parse(Console.ReadLine());             //input to choose option
                 if (option == 1)
                 {
-                    string recipes = recipe();
+                    string recipes = recipe();                          //varable to store recipe
                     report.recipes = recipes;
-                    int num =  numIngredients() ;
+                    int num =  numIngredients();                       //varable to store number of ingrediednts
                     string[] names = new string[num];
-                    //string[] recipe = new string[num];
                     double [] quant = new double[num];
                     string [] measure = new string[num];
                     string[] stepdesc= new string[num];
