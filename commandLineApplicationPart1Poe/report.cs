@@ -79,6 +79,10 @@ namespace commandLineApplicationPart1Poe
                 {
                     ab =quants[i] * 3;
                 }
+                else
+                {
+                    Console.WriteLine("wrong input");
+                }
                 
             }
             
