@@ -52,7 +52,7 @@ namespace commandLineApplicationPart1Poe
 
         
 
-        public static double scale()
+        public static double scale()                                    //method to scale ingredients
         {
             Console.WriteLine("recipe should be scaled to wich factor: \n" +
                         "1. Half (0.5) \n" +
@@ -100,7 +100,7 @@ namespace commandLineApplicationPart1Poe
             return ab;
             //Console.ReadLine();
         }
-        public static void reset()
+        public static void reset()                                  //method to re
         {
             for (int i = 0; i < quants.Length; i++)
             {
