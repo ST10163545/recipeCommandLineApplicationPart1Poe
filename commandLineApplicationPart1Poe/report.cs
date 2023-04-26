@@ -102,7 +102,7 @@ namespace commandLineApplicationPart1Poe
         }
         public static void reset()                                  //method to reset values
         {
-            for (int i = 0; i < quants.Length; i++)
+            for (int i = 0; i < quants.Length; i++)                 //loop to reset all values
             {
                 quants= ab;
                 
