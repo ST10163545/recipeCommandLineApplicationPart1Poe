@@ -22,7 +22,7 @@ namespace commandLineApplicationPart1Poe
          public static double [] ab ;
         // ab = quants;
         
-        public static void display()
+        public static void display()                //method to display recipe
         {
             //string bb = "";
             //string bc = "";
