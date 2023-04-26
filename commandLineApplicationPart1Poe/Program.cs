@@ -34,20 +34,20 @@ namespace commandLineApplicationPart1Poe
                     string recipes = recipe();                          //varable to store recipe
                     report.recipes = recipes;
                     int num =  numIngredients();                       //varable to store number of ingrediednts
-                    string[] names = new string[num];
-                    double [] quant = new double[num];
-                    string [] measure = new string[num];
-                    string[] stepdesc= new string[num];
+                    string[] names = new string[num];                   //array to store names
+                    double [] quant = new double[num];                  //array to store quantiy
+                    string [] measure = new string[num];                //array to unit of measure
+                    string[] stepdesc= new string[num];                 //array to store steps
                     
-                    for (int i = 0; i < num; i++)
+                    for (int i = 0; i < num; i++)                   //loop to get ingredients
                     {
-                        //recipes[i]= recipe();
                         names [i] = name(i);
                         quant[i] = quantity(i);
                         measure[i] = measur();
                         
                     }
-                    int ste = step();
+                    int ste = step();                           //
+                   
                     for (int j = 0; j < ste; j++)
                     {
                         stepdesc[j] = stepdes(j);
