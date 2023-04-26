@@ -100,7 +100,7 @@ namespace commandLineApplicationPart1Poe
             return ab;
             //Console.ReadLine();
         }
-        public static void reset()                                  //method to re
+        public static void reset()                                  //method to reset values
         {
             for (int i = 0; i < quants.Length; i++)
             {
