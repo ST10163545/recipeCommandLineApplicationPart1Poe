@@ -26,8 +26,8 @@ namespace commandLineApplicationPart1Poe
         {
             //string bb = "";
             //string bc = "";
-            StringBuilder bc = new StringBuilder();
-            StringBuilder bb = new StringBuilder();
+            StringBuilder bc = new StringBuilder();         //string builder to display ingredients
+            StringBuilder bb = new StringBuilder();          //string builder to display steps
             ab = quants;
             for (int i = 0; i < name.Length; i++)
             {
