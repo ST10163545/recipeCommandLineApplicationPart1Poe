@@ -16,7 +16,7 @@ namespace commandLineApplicationPart1Poe
         static void Main(string[] args)
         {
             int p = 1;
-            while (p != 6)
+            while (p != 6)                                                    //while loop to loop menu
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("choose one of the following options below \n" +
