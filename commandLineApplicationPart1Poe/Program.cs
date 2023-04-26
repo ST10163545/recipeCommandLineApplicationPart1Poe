@@ -28,7 +28,7 @@ namespace commandLineApplicationPart1Poe
                     "6. Exit application ");
 
 
-                int option = int.Parse(Console.ReadLine());
+                int option = int.Parse(Console.ReadLine());             //input to choose option
                 if (option == 1)
                 {
                     string recipes = recipe();
