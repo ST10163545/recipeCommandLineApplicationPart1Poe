@@ -114,7 +114,7 @@ namespace commandLineApplicationPart1Poe
         }
 
         
-        public static void clear()
+        public static void clear()                          //method to clear values
         {
 
             nums = new int[0];
