@@ -61,13 +61,15 @@ namespace commandLineApplicationPart1Poe
             int opt = int.Parse(Console.ReadLine());
             StringBuilder bc = new StringBuilder();
             StringBuilder bb = new StringBuilder();
+            StringBuilder sc = new StringBuilder();
             double  ab =0 ;
             for (int i = 0; i < quants.Length; i++)
             {
 
                 if (opt == 1)
                 {
-                    ab= quants[i] / 2;
+                    StringBuilder stringBuilder = sc.Append(quants[i] / 2);
+                    
                 }
                 else if (opt == 2)
                 {
