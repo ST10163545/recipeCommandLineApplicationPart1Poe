@@ -68,7 +68,7 @@ namespace commandLineApplicationPart1Poe
 
                 if (opt == 1)
                 {
-                    //StringBuilder stringBuilder = sc.Append(quants[i] / 2);
+                    
                     ab = quants[i] / 2;
                 }
                 else if (opt == 2)
